@@ -41,6 +41,7 @@ input {
 	min-width: 215px;
 	color: black;
 	padding: 1em;
+	padding-right: 35px;
 	border-radius: 5px;
 }
 
