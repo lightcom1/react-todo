@@ -86,7 +86,7 @@ function App() {
 						onStop={(_, data) => updatePos(data, i)}>
 						<div className='todo__item' style={{ backgroundColor: item.color }}>
 							{`${item.item}`}
-							<button className='delete' onClick={() => deleteNote(item.id)}>
+							<button className='delete' onTouchStart={() => deleteNote(item.id)} onClick={() => deleteNote(item.id)}>
 								&times;
 							</button>
 						</div>
